@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "test-native-data": ["../src/index"],
+      "test-native-data/*": ["../src/*"]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "build": {
+        "production": {
+            "releaseChannel": "production",
+            "autoIncrement": true,
+            "android": {
+                "autoIncrement": "versionCode",
+                "buildType": "apk",
+                "gradleCommand": ":app:assembleRelease"
+            },
+            "env": {
+                "EXPO_USE_METRO_WORKSPACE_ROOT": "1"
+            }
+        }
+    }
+}
